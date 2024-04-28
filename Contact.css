@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    
+}
+
+.container{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+.container .title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+
+.user-details .input-box input{
+    height: 41px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    transition: all 0,3s ease;
+
+}
+
+.user-details .input-box textarea{
+    height: 100px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    transition: all 0,3s ease;
+
+
+}
+
+.user-details .input-box .details{
+    display: block;
+    font-weight: 400;
+    margin: 8px 5px;
+
+
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59b6;
+
+}
+
+.user-details .input-box textarea:focus,
+.user-details .input-box textarea:valid{
+    border-color: #9b59b6;
+
+}
+
+form .button{
+    height: 45px;
+    margin: 10px 0;
+
+}
+
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    cursor: pointer;
+}
+
+form .button input:hover{
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+
+
